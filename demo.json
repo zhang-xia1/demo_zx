@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "d5bb3663-339a-480b-a6a2-09b8f70e7bd7",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://stuapi.ysdjypt.com/api/GetFoods?rows=10&page=1&orderBy=Id&name&token=e014ca0c-02ab-49c6-b809-2154fdab108a",
+					"protocol": "http",
+					"host": [
+						"stuapi",
+						"ysdjypt",
+						"com"
+					],
+					"path": [
+						"api",
+						"GetFoods"
+					],
+					"query": [
+						{
+							"key": "rows",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "orderBy",
+							"value": "Id"
+						},
+						{
+							"key": "name",
+							"value": null
+						},
+						{
+							"key": "token",
+							"value": "e014ca0c-02ab-49c6-b809-2154fdab108a"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://stuapi.ysdjypt.com/api/GetFoods?rows=10&page=1&orderBy=Id&name&token=e014ca0c-02ab-49c6-b809-2154fdab108a",
+							"protocol": "http",
+							"host": [
+								"stuapi",
+								"ysdjypt",
+								"com"
+							],
+							"path": [
+								"api",
+								"GetFoods"
+							],
+							"query": [
+								{
+									"key": "rows",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "orderBy",
+									"value": "Id"
+								},
+								{
+									"key": "name",
+									"value": null
+								},
+								{
+									"key": "token",
+									"value": "e014ca0c-02ab-49c6-b809-2154fdab108a"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-IIS/8.5"
+						},
+						{
+							"key": "X-AspNetMvc-Version",
+							"value": "5.2"
+						},
+						{
+							"key": "X-AspNet-Version",
+							"value": "4.0.30319"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST,GET,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "origin,x-requested-with,content-type"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 12 May 2022 00:21:57 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "456"
+						}
+					],
+					"cookie": [],
+					"body": "{\"total\":36,\"rows\":[{\"Id\":\"1\",\"Name\":\"肉丝盖浇饭   \",\"Price\":\"12\",\"RowNum\":\"1\"},{\"Id\":\"2\",\"Name\":\"茄汁肉丸盖浇饭\",\"Price\":\"10\",\"RowNum\":\"2\"},{\"Id\":\"3\",\"Name\":\"番茄炒蛋盖浇饭\",\"Price\":\"10\",\"RowNum\":\"3\"},{\"Id\":\"4\",\"Name\":\"回锅肉盖浇饭\",\"Price\":\"13\",\"RowNum\":\"4\"},{\"Id\":\"5\",\"Name\":\"小龙虾盖浇饭\",\"Price\":\"18\",\"RowNum\":\"5\"},{\"Id\":\"6\",\"Name\":\"蛋黄酱盖浇饭\",\"Price\":\"18\",\"RowNum\":\"6\"},{\"Id\":\"7\",\"Name\":\"酸甜番茄牛肉盖浇饭\",\"Price\":\"14\",\"RowNum\":\"7\"},{\"Id\":\"8\",\"Name\":\"咖喱鸡肉盖浇饭\",\"Price\":\"15\",\"RowNum\":\"8\"},{\"Id\":\"9\",\"Name\":\"咖喱鸡翅盖浇饭\",\"Price\":\"15\",\"RowNum\":\"9\"},{\"Id\":\"10\",\"Name\":\"虾仁玉米青豆盖浇饭\",\"Price\":\"20\",\"RowNum\":\"10\"}]}"
+				}
+			]
+		}
+	]
+}
